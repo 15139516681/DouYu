@@ -1,0 +1,17 @@
+.clearfloat::after{
+	clear: both;
+	content: ".";
+	height: 0px;
+	display: block;
+    overflow: hidden;
+}
+.nav_patch::after{
+	display: block;
+	content: "";
+	position: absolute;
+	left: 0;
+	bottom: .2rem;
+	width: 100%;
+	height: .04rem;
+	background-color: #fa7122;
+}
