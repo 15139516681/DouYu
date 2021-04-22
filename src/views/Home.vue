@@ -11,7 +11,7 @@
 			<live-one :game="roomList" :liveName="liveName"></live-one>
 		</div>
 		<home-classify v-if="arise" :navClass="navClass" :allClass="allClass" @shutClass="shutClass"></home-classify>
-	</div>
+	</div>   
 </template>
 <script>
 	import dyHeader from '../components/dyHeader/dyHeader.vue';
